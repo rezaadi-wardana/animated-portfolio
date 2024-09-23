@@ -8,6 +8,10 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  @include mobile {
+  // height: 100vh;
+
+   }
   h1 {
     font-size: 100px;
     @include mobile {

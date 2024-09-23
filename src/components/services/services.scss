@@ -109,8 +109,9 @@
       @include mobile {
         border: none;
         align-items: center;
-        gap: 20px;
-        padding: 10px;
+      flex-direction: row;
+      gap: 20px;
+        padding: 5px 25px;
       }
       p {
         @include mobile {
@@ -123,6 +124,7 @@
         border: none;
         cursor: pointer;
         @include mobile {
+          max-width: 50px;
           background-color: transparent;
         }
         border: 1px solid orange;

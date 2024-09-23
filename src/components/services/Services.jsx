@@ -70,7 +70,7 @@ animate={ "animate"}
           className="box"
           whileHover={{ backgroundColor: "lightgrey", color: "black" }}
         >
-          <h2>Title</h2>
+          <h2>Title aaaaaaad dfafdac accsq dascs </h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
             pariatur sed minus, in porro esse quas blanditiis cumque maxime

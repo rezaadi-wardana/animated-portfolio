@@ -5,6 +5,7 @@
   overflow: hidden;
   background: linear-gradient(180deg, #0c0c1d, #111132);
   position: relative;
+
   .wrapper {
     max-width: 1336px;
     height: 100%;
@@ -19,7 +20,7 @@
       @include mobile {
         height: 50%;
         width: 100%;
-        gap: 20px;
+        gap: 15px;
         text-align: center;
       }
 
@@ -28,7 +29,9 @@
         color: rebeccapurple;
         letter-spacing: 10px;
         @include mobile {
-          font-size: 25px;
+          font-size: 24px;
+        letter-spacing: 5px;
+        padding: 0 10px;
           text-align: center;
         }
       }
@@ -49,6 +52,10 @@
           margin-right: 20px;
           cursor: pointer;
           font-weight: 300;
+          @include mobile {
+            margin-right: 0;
+            margin: 0 5px;
+          }
         }
       }
       img {

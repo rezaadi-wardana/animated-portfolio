@@ -10,7 +10,7 @@
   gap: 50px;
   @include mobile {
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     flex-direction: column;
   }
   .textContainer {
@@ -20,20 +20,26 @@
     align-items: space-between;
     gap: 30px;
     @include mobile {
-      gap: 20px;
+      gap: 10px;
       text-align: center;
       align-items: center;
-      margin-top: 70px;
+      margin-top: 50px;
     }
     h1 {
       font-size: 100px;
       line-height: 88px;
       @include mobile {
-        font-size: 36px;
+        font-size: 30px;
       }
+    }
+    h2{
+      font-size: 20px;
+
     }
     span {
       font-weight: 300;
+      font-size: 15px;
+
     }
   }
   .formContainer {
@@ -41,7 +47,7 @@
     position: relative;
     @include mobile {
       width: 100%;
-      padding: 50px;
+      padding: 20px;
     }
     .phoneSvg {
       stroke: orange;
@@ -49,6 +55,15 @@
       position: absolute;
       margin: auto;
       z-index: -1;
+
+      .svg{
+        width: 400px;
+         height: 400px;
+         @include mobile {
+          width: 300px;
+          height: 300px;
+        }
+      }
     }
     form {
       flex-direction: column;
