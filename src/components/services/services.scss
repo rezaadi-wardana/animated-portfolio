@@ -123,15 +123,17 @@
         background-color: orange;
         border: none;
         cursor: pointer;
+        color: black;
+
         @include mobile {
           max-width: 50px;
           background-color: transparent;
+          border: 1px solid orange;
+          width: 50%;
+          border-radius: 5px;
+          padding: 5px;
+          color: orange;
         }
-        border: 1px solid orange;
-        width: 50%;
-        border-radius: 5px;
-        padding: 5px;
-        color: orange;
       }
     }
   }

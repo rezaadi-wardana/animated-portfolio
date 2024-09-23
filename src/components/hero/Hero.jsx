@@ -40,6 +40,18 @@ const sliderVariants = {
 };
 
 const Hero = () => {
+  const handleScrollToPortfolio = () => {
+    const portfolioSection = document.getElementById('portfolio');
+    if (portfolioSection) {
+      portfolioSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  const handleScrollToAbout = () => {
+    const aboutSection = document.getElementById('about');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <div className="hero">
       <div className="wrapper">
@@ -56,10 +68,10 @@ const Hero = () => {
             Fullstack Web Developers
           </motion.h1>
           <motion.div className="buttons" variants={textVariants}>
-            <motion.button variants={textVariants}>
+            <motion.button variants={textVariants} onClick={handleScrollToPortfolio}>
               See Latest Works
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants}  onClick={handleScrollToAbout}>Contact Me</motion.button>
           </motion.div>
           <motion.img
             src="./scroll.png"

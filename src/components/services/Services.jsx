@@ -57,12 +57,9 @@ animate={ "animate"}
           className="box"
           whileHover={{ backgroundColor: "lightgrey", color: "black" }}
         >
-          <h2>Title</h2>
+          <h2>Create Front End App</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-            pariatur sed minus, in porro esse quas blanditiis cumque maxime
-            asperiores reiciendis ratione exercitationem recusandae ipsam
-            voluptas laboriosam quasi hic fugiat!
+            Usually i create a front-end application such as a web app, landing page, wedding invitation website, and more. the client target is for MSMEs in local area, and i will improve to expand from default local area. 
           </p>
           <button>GO</button>
         </motion.div>
@@ -70,12 +67,9 @@ animate={ "animate"}
           className="box"
           whileHover={{ backgroundColor: "lightgrey", color: "black" }}
         >
-          <h2>Title aaaaaaad dfafdac accsq dascs </h2>
+          <h2>Create Website For Company </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-            pariatur sed minus, in porro esse quas blanditiis cumque maxime
-            asperiores reiciendis ratione exercitationem recusandae ipsam
-            voluptas laboriosam quasi hic fugiat!
+        Im has created a website for company furniture in Jepara City, namely is CV. RAMA CITRA INDO FURNITURE, there are focus on manufacturing products furniture to export market up to aboards.
           </p>
           <button>GO</button>
         </motion.div>
@@ -83,12 +77,9 @@ animate={ "animate"}
           className="box"
           whileHover={{ backgroundColor: "lightgrey", color: "black" }}
         >
-          <h2>Title</h2>
+          <h2>Like a Design World</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-            pariatur sed minus, in porro esse quas blanditiis cumque maxime
-            asperiores reiciendis ratione exercitationem recusandae ipsam
-            voluptas laboriosam quasi hic fugiat!
+          Beside create a program, I like too a design using corel draw, therefore im like to Develop a website design, currently like the world design since still children, design is on my passion instead.
           </p>
           <button>GO</button>
         </motion.div>
@@ -96,12 +87,9 @@ animate={ "animate"}
           className="box"
           whileHover={{ backgroundColor: "lightgrey", color: "black" }}
         >
-          <h2>Title</h2>
+          <h2>Team Working Collaboration</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-            pariatur sed minus, in porro esse quas blanditiis cumque maxime
-            asperiores reiciendis ratione exercitationem recusandae ipsam
-            voluptas laboriosam quasi hic fugiat!
+          I help team working collaboration, like project management, task management, and communication. I also like to help team to grow and learn, and also to help team to be more productive and efficient.
           </p>
           <button>GO</button>
         </motion.div>
