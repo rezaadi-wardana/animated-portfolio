@@ -68,10 +68,10 @@ const Hero = () => {
             Fullstack Web Developers
           </motion.h1>
           <motion.div className="buttons" variants={textVariants}>
-            <motion.button variants={textVariants} onClick={handleScrollToPortfolio}>
+            <motion.button variants={textVariants} onClick={handleScrollToPortfolio} whileHover={{backgroundColor:"#ececec", color: "black"}}>
               See Latest Works
             </motion.button>
-            <motion.button variants={textVariants}  onClick={handleScrollToAbout}>Contact Me</motion.button>
+            <motion.button variants={textVariants} onClick={handleScrollToAbout} whileHover={{backgroundColor:"#ececec", color: "black"}}>Contact Me</motion.button>
           </motion.div>
           <motion.img
             src="./scroll.png"
