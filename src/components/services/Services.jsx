@@ -40,16 +40,16 @@ animate={ "animate"}
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="./people.webp" alt="" />
+          <img src="./people.jpg" alt="" />
           <h1>
-            <motion.b whileHover={{color: "orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{color: "orange"}}>Creative</motion.b> Ideas
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color: "orange"}}>For Your</motion.b> Business
+            <motion.b whileHover={{color: "orange"}}>For Your</motion.b> Bussiness
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>WHAT I DO?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
